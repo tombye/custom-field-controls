@@ -88,3 +88,19 @@
   clear: none;
   margin-right: 10px;
 }
+
+/* Add selected state */
+label.selected {
+  background: #fff;
+  border-color: #000;
+}
+
+/* Add focus to block labels */
+label.focused {
+  outline: 3px solid #ffbf47;
+}
+
+/* Remove focus from radio/checkboxes */
+label.focused input:focus {
+  outline: none;
+}
