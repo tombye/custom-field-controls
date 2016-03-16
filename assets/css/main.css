@@ -76,7 +76,7 @@
   width: 80%;
   height: 80%;
   box-sizing: border-box;
-  background: url("assets/svg/tick.svg") no-repeat 0 0;
+  background: url("../svg/tick.svg") no-repeat 0 0;
   background-size: 100%;
 }
 
